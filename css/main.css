@@ -1,0 +1,25 @@
+/* Scroll Booster */
+.app {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    cursor: grab;
+    /* border: 10px solid #460a78; */
+    /* overflow: scroll; */
+}
+
+.app-inner {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* border: 10px solid #edb197; */
+    /* padding: 50px; */
+    background: #44bdf6;
+
+}
