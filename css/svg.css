@@ -1,0 +1,18 @@
+/* Hover Regions SVG */
+.regiao_1_svg{
+    filter: blur(3px);
+    transition: transform 750ms;
+}
+  
+.regiao_1_svg.hovered { 
+    filter: blur(0px); 
+    filter: drop-shadow(15px 15px 15px rgb(0 0 0 / 0.4));
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+/* .regiao_1_svg:hover{
+   filter: blur(0);
+   filter: drop-shadow(15px 15px 15px rgb(0 0 0 / 0.4));
+   transform: translateY(-10px);
+   cursor: pointer;
+} */
