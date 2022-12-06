@@ -6,6 +6,7 @@
   --macaroni: #FAB27D;
   --littleboyblue: #649EFA;
   --chinesered: #B94227;
+  --azulalgumacoisa: #254DAE;
 }
 
 @font-face {
@@ -13,11 +14,45 @@
   src: url(Bonocô.ttf);
 }
 
-.chineseRed{
-  background-color: var(--littleboyblue);
+body {
+  background-color: var(--jasmine) !important;
 }
 
-footer{
+.borda{
+  border-bottom: 1px solid var(--azulalgumacoisa);
+}
+
+.border-footer{
+  border-top: 1px solid var(--azulalgumacoisa);
+}
+
+.text-footer{
+  color: var(--chinesered);
+  font-weight: 700;
+}
+
+.bi-house-heart, .bi-tsunami{
+  color: var(--chinesered) !important;
+}
+
+.bi{
+  color: var(--azulalgumacoisa);
+}
+
+.subtitle{
+  color: var(--chinesered);
+  font-weight: 700;
+}
+
+.icon:hover{
+  color: var(--chinesered);
+}
+
+.marginTopn125{
+  margin-top: -1.25rem !important;
+}
+
+.chineseRed{
   background-color: var(--littleboyblue);
 }
 
@@ -28,10 +63,11 @@ footer{
   font-weight: 300;
 }
 
-h5.card-title{
+.text-header{
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
   font-size: 20pt;
+  color: var(--azulalgumacoisa);
 }
 
 h6.card-subtitle{
@@ -41,11 +77,21 @@ h6.card-subtitle{
 
 p,a{
   font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  text-align: justify;
 }
 
 h1.titulo{
   font-family: 'Bocono',sans-serif;
   font-size: 60pt;
+  color: var(--azulalgumacoisa);
+}
+
+.text-more{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30pt;
+  font-weight: 700;
+  color: var(--azulalgumacoisa);
 }
 
 
@@ -56,18 +102,18 @@ h1.titulo{
 }
 
 .single-chart {
-  width: 33%;
+  width: 70%;
   justify-content: space-around ;
 }
 
 .circular-chart.green .circle {
-  stroke: #4CC790;
+  stroke: var(--chinesered);
 }
 
 .circular-chart {
   display: block;
   margin: 10px auto;
-  max-width: 80%;
+  max-width: 100%;
   max-height: 250px;
 }
 
@@ -89,8 +135,9 @@ h1.titulo{
   animation: progress 1s ease-out forwards;
 }
 .percentage {
-  fill: #666;
-  font-family: 'Bocono', sans-serif;
-  font-size: 0.5em;
+  fill: var(--azulalgumacoisa);
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.3em;
   text-anchor: middle;
+  font-weight: 800;
 }

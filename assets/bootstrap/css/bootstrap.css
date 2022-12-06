@@ -8140,9 +8140,9 @@ textarea.form-control-lg {
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-muted {
+.text-muted, .bi-house-heart {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: #6c757d;
 }
 
 .text-black-50 {
