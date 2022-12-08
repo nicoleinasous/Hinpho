@@ -63,6 +63,11 @@ body {
   font-weight: 300;
 }
 
+.imagem{
+  max-width: 1240px;
+  max-height: 270px;
+}
+
 .text-header{
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
@@ -92,6 +97,17 @@ h1.titulo{
   font-size: 30pt;
   font-weight: 700;
   color: var(--azulalgumacoisa);
+}
+
+/*Overlay*/
+.overlay{
+  position: absolute;
+  display: none;
+  top: 25%;
+  left: 25%;
+  background-image: url(../img/card-animal.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
 }
 
 
