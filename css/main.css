@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Bonoco';
-  src: url('./../fonts/Bonoco.ttf') format('embedded-opentype'), /* Internet Explorer */
+  src: url(./../animalPage/css/Bonocô.ttf),
+       url('./../fonts/Bonoco.ttf') format('embedded-opentype'), /* Internet Explorer */
        url('./../fonts/Bonoco.ttf') format('woff2'),             /* Super Modern Browsers */
        url('./../fonts/Bonoco.ttf') format('woff'),              /* Pretty Modern Browsers */
        url('./../fonts/Bonoco.ttf') format('truetype'),          /* Safari, Android, iOS */
-       url('./../fonts/Bonoco.ttf') format('ttf'),               /* TrueTypeFont *
        url('./../fonts/Bonoco.ttf') format('svg');               /* Legacy iOS */
 }
 
