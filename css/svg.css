@@ -10,9 +10,9 @@
     transform: translateY(-10px);
     cursor: pointer;
 }
-/* .regiao_1_svg:hover{
+.regiao_1_svg:hover{
    filter: blur(0);
    filter: drop-shadow(15px 15px 15px rgb(0 0 0 / 0.4));
    transform: translateY(-10px);
    cursor: pointer;
-} */
+}

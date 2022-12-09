@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
-	 <!-- <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="../../css/svg.css" type="text/css"/> -->
-<style type="text/css">
-	<!-- .regiao_1_svg{
-		filter: blur(3px);
+<svg version="1.1" id="layer-region-1-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;z-index: 100;position: absolute;top: 450px;left: -110px;width: 986px;height: 1216px;" xml:space="preserve">
+	 <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="../../css/svg.css" type="text/css"/>
+	 <script xlink:href="../../js/main.js" />
+	 <style type="text/css">
+	<!-- #layer-region-1-svg{
+		z-index: 100;
+		position: absolute;
+		top: 450px;
+		left: -110px;	
+		width: 986px;
+		height: 1216px;
+	  }
+	  
+	.region_1_svg{
+		filter: blur(3.5px) 
+				drop-shadow(13px 13px 13px rgb(0 0 0 / 0.4));
 		transition: transform 750ms;
-	}
-	.regiao_1_svg.hovered{
-		/* filter: blur(0); */
-		filter: drop-shadow(15px 15px 15px rgb(0 0 0 / 0.4));
+	  }
+	  
+	.region_1_svg.hovered{
+		filter: blur(0.5px)
+				drop-shadow(15px 15px 15px rgb(0 0 0 / 0.4));
 		transform: translateY(-10px);
 		cursor: pointer;
 	} -->
